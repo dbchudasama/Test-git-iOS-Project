@@ -21,7 +21,7 @@
 		F54CC176197054FE009763E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54CC158197054FE009763E4 /* UIKit.framework */; };
 		F54CC17E197054FE009763E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F54CC17C197054FE009763E4 /* InfoPlist.strings */; };
 		F54CC180197054FE009763E4 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54CC17F197054FE009763E4 /* Git_TestTests.m */; };
-		F54CC18B1970605A009763E4 /* GTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F54CC18A1970605A009763E4 /* GTest.m */; };
+		F54CC18E19706C69009763E4 /* GTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F54CC18D19706C69009763E4 /* GTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		F54CC17B197054FE009763E4 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		F54CC17D197054FE009763E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F54CC17F197054FE009763E4 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
-		F54CC1891970605A009763E4 /* GTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTest.h; path = ../GTest.h; sourceTree = "<group>"; };
-		F54CC18A1970605A009763E4 /* GTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTest.m; path = ../GTest.m; sourceTree = "<group>"; };
+		F54CC18C19706C69009763E4 /* GTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTest.h; sourceTree = "<group>"; };
+		F54CC18D19706C69009763E4 /* GTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,12 +115,12 @@
 		F54CC15A197054FE009763E4 /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
-				F54CC1891970605A009763E4 /* GTest.h */,
-				F54CC18A1970605A009763E4 /* GTest.m */,
 				F54CC163197054FE009763E4 /* AppDelegate.h */,
 				F54CC164197054FE009763E4 /* AppDelegate.m */,
 				F54CC166197054FE009763E4 /* Main.storyboard */,
 				F54CC169197054FE009763E4 /* ViewController.h */,
+				F54CC18C19706C69009763E4 /* GTest.h */,
+				F54CC18D19706C69009763E4 /* GTest.m */,
 				F54CC16A197054FE009763E4 /* ViewController.m */,
 				F54CC16C197054FE009763E4 /* Images.xcassets */,
 				F54CC15B197054FE009763E4 /* Supporting Files */,
@@ -255,7 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F54CC16B197054FE009763E4 /* ViewController.m in Sources */,
-				F54CC18B1970605A009763E4 /* GTest.m in Sources */,
+				F54CC18E19706C69009763E4 /* GTest.m in Sources */,
 				F54CC165197054FE009763E4 /* AppDelegate.m in Sources */,
 				F54CC161197054FE009763E4 /* main.m in Sources */,
 			);
