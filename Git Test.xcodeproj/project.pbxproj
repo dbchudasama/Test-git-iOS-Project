@@ -54,8 +54,8 @@
 		F54CC17B197054FE009763E4 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		F54CC17D197054FE009763E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F54CC17F197054FE009763E4 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
-		F54CC1891970605A009763E4 /* GTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTest.h; sourceTree = "<group>"; };
-		F54CC18A1970605A009763E4 /* GTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTest.m; sourceTree = "<group>"; };
+		F54CC1891970605A009763E4 /* GTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTest.h; path = ../GTest.h; sourceTree = "<group>"; };
+		F54CC18A1970605A009763E4 /* GTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTest.m; path = ../GTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +85,6 @@
 		F54CC148197054FE009763E4 = {
 			isa = PBXGroup;
 			children = (
-				F54CC1891970605A009763E4 /* GTest.h */,
-				F54CC18A1970605A009763E4 /* GTest.m */,
 				F54CC15A197054FE009763E4 /* Git Test */,
 				F54CC179197054FE009763E4 /* Git TestTests */,
 				F54CC153197054FE009763E4 /* Frameworks */,
@@ -117,6 +115,8 @@
 		F54CC15A197054FE009763E4 /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				F54CC1891970605A009763E4 /* GTest.h */,
+				F54CC18A1970605A009763E4 /* GTest.m */,
 				F54CC163197054FE009763E4 /* AppDelegate.h */,
 				F54CC164197054FE009763E4 /* AppDelegate.m */,
 				F54CC166197054FE009763E4 /* Main.storyboard */,
